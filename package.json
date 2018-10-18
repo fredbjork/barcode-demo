@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "copy-engine": "mkdir -p src/assets && cp node_modules/scandit-sdk/build/scandit-engine-sdk.* src/assets/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -22,6 +23,7 @@
     "@angular/router": "^6.0.0",
     "core-js": "^2.5.4",
     "rxjs": "^6.0.0",
+    "scandit-sdk": "^3.1.3",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
